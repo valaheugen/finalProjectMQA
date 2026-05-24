@@ -65,7 +65,7 @@ Here is what should be covered
 2. Invite the reviewer to the forked repo
 3. Clone the forked repo
 4. Install the dependencies `npm install`
-5. Run the app using `npm run dev`
+5. Run the app using `npm run dev`, http://localhost:5175/
 6. Start testing the app
 7. Write the bug report based on findings and commit it in the root folder
 8. Install the testing framework of your choice
