@@ -64,13 +64,13 @@ Here is what should be covered
 1. Fork this public repo into a private repo
 2. Invite the reviewer to the forked repo
 3. Clone the forked repo
-4. cd into the app folder and Install the dependencies `npm install`
+4. Install the dependencies `npm install`
 5. Run the app using `npm run dev`
 6. Start testing the app
-7. Write the bug report based on findings and commit it in the root folder ( not the app folder)
+7. Write the bug report based on findings and commit it in the root folder
 8. Install the testing framework of your choice
 9. Write the automated tests
-10. Commit the tests to the app folder
+10. Commit the tests to the project
 11. Push the changes to the forked repo on a new branch
 12. Open a PR to the main branch
 13. Add the reviewer as a reviewer to the PR
