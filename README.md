@@ -1,6 +1,8 @@
 # Summer 2024 QA Hiring Homework
 
-The Repo is a sample React application that will be used to assess the candidate's skills in the QA task. The repo is front-end only.
+This is a **GitHub template repository** containing a sample React application used to assess the candidate's skills in the QA task. The repo is front-end only.
+
+Create your own copy with the **"Use this template"** button (do **not** fork). This gives you an independent repository, with no link back to this one, that you can set to **private** so other candidates can't see your work.
 
 ## The Sample App
 
@@ -59,20 +61,26 @@ Here is what should be covered
 - 3 regression tests for functional bugs found during manual testing ( they should fail when run, because the bugs are not fixed yet )
 - A test that generates a test of all possible combinations of the task properties ( importance, label, completeness ) and takes a screenshot of the app after each combination is added.
 
+The test suite must also run in CI. Add **two GitHub Actions workflow files** under `.github/workflows/`:
+
+- `e2e.yml` — runs the functional / end-to-end tests
+- `visual.yml` — runs the visual (screenshot) tests and uploads the results to **[Argos](https://argos-ci.com)** for visual regression comparison
+
 ## Steps to follow
 
-1. Fork this public repo into a private repo
-2. Invite the reviewer to the forked repo
-3. Clone the forked repo
+1. Click **"Use this template" → Create a new repository** and make it **private** ( do not fork )
+2. Invite the reviewer to your repository
+3. Clone your repository
 4. Install the dependencies `npm install`
 5. Run the app using `npm run dev`, http://localhost:5175/
 6. Start testing the app
 7. Write the bug report based on findings and commit it in the root folder
 8. Install the testing framework of your choice
 9. Write the automated tests
-10. Commit the tests to the project
-11. Push the changes to the forked repo on a new branch
-12. Open a PR to the main branch
-13. Add the reviewer as a reviewer to the PR
+10. Add two CI workflow ( `.yml` ) files in `.github/workflows/` — one for the e2e tests and one for the visual tests ( Argos )
+11. Commit the tests and workflows to the project
+12. Push the changes to your repository on a new branch
+13. Open a PR to the main branch
+14. Add the reviewer as a reviewer to the PR
 
-If you have any questions, feel free to open an issue in your private repo ( so other candidates don't see the questions ) and I'll do my best to answer them ASAP.
+If you have any questions, feel free to open an issue in your private repository ( so other candidates don't see the questions ) and I'll do my best to answer them ASAP.
