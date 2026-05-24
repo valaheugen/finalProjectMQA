@@ -68,7 +68,7 @@ The test suite must also run in CI. Add **two GitHub Actions workflow files** un
 
 ## Steps to follow
 
-1. Click **"Use this template" → Create a new repository** and make it **private** ( do not fork )
+1. Click **"Use this template" → Create a new repository** and make it **private** ( do not fork ) - https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
 2. Invite the reviewer to your repository
 3. Clone your repository
 4. Install the dependencies `npm install`
